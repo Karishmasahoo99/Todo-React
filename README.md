@@ -1,8 +1,4 @@
-# React + Vite
+If any folder has index.js, it will be exported by default we need not to write folder_name/index.js
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+In localStorage, we have two things: getItem and setItem. While storing data, the data is converted to string format and hence while retrieving we have to convert it to json() format. While storing we requires key value pair and while retrieving only key is required.
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
